@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* reestableciendo conexion con github eslint-disable no-undef */ 
 export const getByCountry = (data, country) => {
   const countryFilterData = data.filter(item => item.team === country);
   return countryFilterData;
